@@ -1,0 +1,51 @@
+{
+  "name": "bower.json",
+  "description": "Bower package description file",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/Dx00/Recode_Soren",
+  "author": "Dx00 <scripter00@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "ajax": "0.0.4",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "leaflet": "^1.6.0",
+    "mapbox-gl": "^1.7.0",
+    "mysql": "^2.17.1",
+    "passport": "^0.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-leaflet": "^2.6.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "sequelize": "^5.21.3",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "proxy": "http://localhost:3009/",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
