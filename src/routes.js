@@ -13,9 +13,7 @@ routes.get(`/dados`, (req, res) => {
 
     {id: 1, rua: "Rua dos Arcos s/n, Rio de Janeiro - RJ, 20230-060", long: -22.9129469, lati: -43.1807353, categoria: 'lanchonete'},
 
-    {id: 2, rua: "Rua dos Arcos s/n, Rio de Janeiro - RJ, 20230-060", long: -22.9129469, lati: -43.1807353, categoria: 'lanchonete'},
-
-    {id: 3, rua: "R. Ceará - Praca da Bandeira, Rio de Janeiro - RJ, 20270-200", long: -22.8930707, lati: -43.2324169, categoria: 'Bar'}
+    {id: 2, rua: "R. Ceará - Praca da Bandeira, Rio de Janeiro - RJ, 20270-200", long: -22.8930707, lati: -43.2324169, categoria: 'Bar'}
 
     ]
     
